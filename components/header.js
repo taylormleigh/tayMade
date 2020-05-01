@@ -28,6 +28,7 @@ const Header = () => (
       <Link href="/"><a style={linkStyle}>About</a></Link>  
       <Link href="/projects"><a style={linkStyle}>Apps</a></Link>  
       <a href={'https://github.com/taylormleigh'} style={linkStyle}>GitHub</a>
+      <a href={'https://www.linkedin.com/in/tay-huval/'} style={linkStyle}>LinkedIn</a>
     </div>
 )
 
