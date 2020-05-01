@@ -27,7 +27,7 @@ const Header = () => (
       </h1>
       <Link href="/"><a style={linkStyle}>About</a></Link>  
       <Link href="/projects"><a style={linkStyle}>Apps</a></Link>  
-      <Link href="https://github.com/taylormleigh"><a style={linkStyle}>GitHub</a></Link>
+      <a href={'https://github.com/taylormleigh'} style={linkStyle}>GitHub</a>
     </div>
 )
 
