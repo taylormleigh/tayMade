@@ -1,0 +1,22 @@
+{
+  "name": "tarot-next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "mysql": "^2.18.1",
+    "next": "9.3.5",
+    "next-images": "^1.4.0",
+    "nodemon": "^2.0.3",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-hook-form": "^5.4.2"
+  }
+}
