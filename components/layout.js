@@ -8,8 +8,12 @@ const bgStyle = {
   minHeight: `70vh`,
   maxHeight: `70vh`,
   overflow: `auto`,
-  padding: `40px`,
-  boxShadow: `0px 0px 40px 20px #000000`,
+  padding: `10px`,
+  borderSize: `1px`,
+  borderStyle: `solid`,
+  borderColor: `##aaa3c0`,
+  borderRadius: `10px`
+  // boxShadow: `0px 0px 30px 2px #aaa3c0`,
 };
 
 const divStyle = {
