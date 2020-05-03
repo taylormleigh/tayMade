@@ -9,13 +9,6 @@ const container = {
   // overflow: `auto`
 };
 
-const container2 = {
-  display: `flex`, 
-  flexFlow: `row wrap`, 
-  // justifyContent: `flex-start`, 
-  // overflow: `auto`
-};
-
 const summary = {
   marginLeft: `20px`,
   order: `2`,
