@@ -460,7 +460,7 @@ table {
   /* margin-bottom: 1.45rem; */
   /* line-height: 1.45rem; */
   border-collapse: collapse;
-  width: 100%;
+  /* width: 100%; */
 }
 fieldset {
   margin-left: 0;
@@ -617,7 +617,7 @@ th {
   -moz-font-feature-settings: "tnum";
   -ms-font-feature-settings: "tnum";
   -webkit-font-feature-settings: "tnum";
-  padding-left: 0.5rem;
+  padding-left: 18px;
   /* padding-right: 0.96667rem; */
   /* padding-top: 0.725rem; */
   /* padding-bottom: calc(0.725rem - 1px); */
