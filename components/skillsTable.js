@@ -5,23 +5,23 @@ const Skills = () => {
     <table><tbody>
       <tr>
         <td><i>Languages</i></td>
-        <td>JavaScript /CSS/ HTML</td>  
+        <td>JavaScript / CSS / HTML </td>  
       </tr>
       <tr>
         <td><i>Frameworks</i></td>
-        <td>React / JQuery / Express / Redux</td>  
+        <td>React / JQuery / Express / Redux </td>  
       </tr>
       <tr>
         <td><i>Databases</i></td>
-        <td>mySQL</td>  
+        <td>mySQL </td>  
       </tr>
       <tr>
         <td><i>Testing</i></td>
-        <td>Mocha / Chai / Jasmine</td>  
+        <td>Mocha / Chai / Jasmine </td>  
       </tr>
       <tr>
         <td><i>Deployment</i></td>
-        <td>AWS / Elastic Beanstalk / Docker</td>  
+        <td>AWS / Elastic Beanstalk / Docker </td>  
       </tr>
       <tr>
         <td><i>Other</i></td>
