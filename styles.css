@@ -1,11 +1,10 @@
-/* Cabin: sans serif body font */
-@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+/* Roboto: body font */
+/* Yeseva One: h1 & h2 font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Yeseva+One&display=swap');
 
-/* Gidugu: h1 & h2 font */
-@import url('https://fonts.googleapis.com/css2?family=Bigshot+One&family=Gidugu&display=swap');
 
 html {
-  font-family: "Cabin";
+  font-family: "Source Serif Pro";
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -14,7 +13,7 @@ body {
   font-size: 18px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background-image: url('./public/bg1.jpg'); */
+  /* background-image: url('./public/bg2.png'); */
   background-color: white;
   background-size: 120vw;
   background-repeat: round;
@@ -171,7 +170,7 @@ textarea {
   /* background-color: black; */
   /* color: white; */
   font-size: 18px;
-  font-family: "Cabin";
+  font-family: "Source Serif Pro";
   text-transform: uppercase;
 }
 select {
@@ -209,7 +208,7 @@ select {
 }
 html {
   color: black;
-  font: 112.5%/1.45em "Cabin";
+  font: 112.5%/1.45em "Source Serif Pro";
   box-sizing: border-box;
   overflow-y: scroll;
 }
@@ -263,6 +262,7 @@ img {
   padding-top: 0;
   margin-bottom: 1.45rem;
 }
+/* site title */
 h1 {
   margin-left: 0;
   margin-right: 0;
@@ -270,13 +270,13 @@ h1 {
   padding-bottom: 0;
   padding-left: 0;
   padding-right: 0;
-  padding-top: 0;
+  padding-top: 1.45rem;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: Gidugu;
+  font-family: Yeseva One;
   font-weight: normal;
   text-rendering: optimizeLegibility;
-  font-size: 6vw;
+  font-size: 2.6vw;
   /* text-transform: uppercase; */
   line-height: 0.6;
 }
@@ -290,13 +290,14 @@ h2 {
   padding-top: 0; */
   /* margin-bottom: 1.45rem; */
   color: black;
-  font-family: Gidugu;
+  font-family: Yeseva One;
   font-weight: normal;
   text-rendering: optimizeLegibility;
-  font-size: 2.00rem;
+  font-size: 2.0vw;
   /* text-transform: uppercase; */
   /* line-height: 1.1; */
 }
+/* subtitle */
 h3 {
   /* margin-left: 0;
   margin-right: 0;
@@ -307,10 +308,10 @@ h3 {
   padding-top: 0;
   margin-bottom: 2px; */
   color: inherit;
-  font-family: "Cabin";
+  font-family: Yeseva One;
   font-weight: normal;
   text-rendering: optimizeLegibility;
-  font-size: 24px;
+  font-size: 1.7vw;
   line-height: 0.1;
 }
 h4 {
@@ -323,7 +324,7 @@ h4 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: "Cabin";
+  font-family: "Yeseva One";
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1rem;
@@ -339,7 +340,7 @@ h5 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: "Cabin";
+  font-family: "Yeseva One";
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 0.85028rem;
@@ -355,7 +356,7 @@ h6 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: "Cabin";
+  font-family: "Roboto";
   font-weight: normal;
   text-rendering: optimizeLegibility;
   font-size: 20px;
