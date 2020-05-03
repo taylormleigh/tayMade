@@ -9,7 +9,6 @@ const bgStyle = {
   maxHeight: `70vh`,
   overflow: `auto`,
   padding: `10px`,
-  // borderWidth: `2px`,
   borderTop: `2px`,
   borderBottom: `0px`,
   borderLeft: `0px`,

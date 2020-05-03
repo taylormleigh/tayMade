@@ -282,32 +282,14 @@ h1 {
   line-height: 0.8;
 }
 h2 {
-  /* margin-left: 0; */
-  /* margin-right: 0; */
-  /* margin-top: 0; */
-  /* padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0; */
-  /* margin-bottom: 1.45rem; */
   color: black;
   font-family: Yeseva One;
   font-weight: normal;
   text-rendering: optimizeLegibility;
   font-size: 2.0vw;
-  /* text-transform: uppercase; */
-  /* line-height: 1.1; */
 }
 /* subtitle */
 h3 {
-  /* margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  margin-bottom: 2px; */
   color: inherit;
   font-family: Yeseva One;
   font-weight: normal;
@@ -474,9 +456,9 @@ table {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
-  font-size: 1rem;
-  line-height: 1.45rem;
+  font-size: 18px;
+  /* margin-bottom: 1.45rem; */
+  /* line-height: 1.45rem; */
   border-collapse: collapse;
   width: 100%;
 }
@@ -629,15 +611,16 @@ thead {
 td,
 th {
   text-align: left;
-  border-bottom: 1px solid hsla(0, 0%, 0%, 0.12);
+  vertical-align: top;
+  /* border-bottom: 1px solid hsla(0, 0%, 0%, 0.12); */
   font-feature-settings: "tnum";
   -moz-font-feature-settings: "tnum";
   -ms-font-feature-settings: "tnum";
   -webkit-font-feature-settings: "tnum";
-  padding-left: 0.96667rem;
-  padding-right: 0.96667rem;
-  padding-top: 0.725rem;
-  padding-bottom: calc(0.725rem - 1px);
+  padding-left: 0rem;
+  /* padding-right: 0.96667rem; */
+  /* padding-top: 0.725rem; */
+  /* padding-bottom: calc(0.725rem - 1px); */
 }
 th:first-child,
 td:first-child {
