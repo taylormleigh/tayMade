@@ -1,12 +1,12 @@
 import React from "react"
-import Header from "./header"
+import Header from "./header";
 
 const bgStyle = {
   backgroundColor: `#ffffff`,
   margin: `0 auto`,
   maxWidth: 800,
   minHeight: `70vh`,
-  maxHeight: `70vh`,
+  maxHeight: `75vh`,
   overflow: `auto`,
   padding: `10px`,
   borderTop: `2px`,
