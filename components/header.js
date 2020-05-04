@@ -1,6 +1,5 @@
-import Link from 'next/link';
-import React from "react"
-
+import React from "react";
+import Button from "./button.js";
 
 const flex = {
   marginTop: `50px`,
@@ -10,14 +9,6 @@ const flex = {
   width: `100%`,
   padding: `4px`
 }
-
-const linkStyle = {
-  marginRight: 15,
-  color: `black`,
-  fontFamily: "Yeseva One",
-  textDecoration: `none`,
-  textTransform: `uppercase`,
-};
 
 const buttons = {
   display: `flex`,
@@ -29,10 +20,10 @@ const buttons = {
 const Header = () => (
     <div style={flex}>
       <div style={buttons}>
-        <Link href="/"><a style={linkStyle}>About</a></Link>  
-        <Link href="/apps"><a style={linkStyle}>Apps</a></Link>  
-        <a href={'https://github.com/taylormleigh'} style={linkStyle}>GitHub</a>
-        <a href={'https://www.linkedin.com/in/tay-huval/'} style={linkStyle}>LinkedIn</a>
+        <Button className="headerLink" link={"/"} text={"About"} sitePage={true}/>
+        <Button link={"/apps"} text={"Apps"} sitePage={true}/>
+        <Button link={"https://github.com/taylormleigh"} text={"GitHub"} sitePage={false}/>
+        <Button link={"https://www.linkedin.com/in/tay-huval/"} text={"LinkedIn"} sitePage={false}/>
       </div>
     </div>
 )
