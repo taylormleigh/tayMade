@@ -4,7 +4,7 @@
 
 
 html {
-  font-family: "Source Serif Pro";
+  font-family: "Roboto";
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -49,10 +49,10 @@ strong {
 dfn {
   font-style: italic;
 }
-mark {
+/* mark {
   background-color: #ff0;
   color: #000;
-}
+} */
 small {
   font-size: 80%;
 }
@@ -80,7 +80,7 @@ select {
   text-transform: none;
 }
 mark {
-  background-color: #c9c4f3;
+  background-color: #efccbb;
 }
 .headerLink {
   margin-right: 15;
@@ -91,7 +91,10 @@ mark {
   cursor: pointer;
   text-align: center;
   align-content: middle;
+
+  
 }
+
 .headerLink:hover {
   opacity: 0.3;
 }
@@ -289,14 +292,18 @@ h1 {
   padding-right: 0;
   padding-top: 0.25rem;
   /* margin-bottom: 1.45rem; */
-  color: inherit;
+  /* color: #546f1c; */
+  background: -webkit-linear-gradient(#6a8d24, #294a1e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-family: Yeseva One;
   font-weight: normal;
   text-rendering: optimizeLegibility;
   min-width: 2.6vw;
-  /* text-transform: uppercase; */
-  line-height: 0.8;
+  text-transform: uppercase;
+  line-height: 0.8; 
 }
+
 h2 {
   color: black;
   font-family: Yeseva One;
@@ -306,7 +313,7 @@ h2 {
 }
 /* subtitle */
 h3 {
-  color: inherit;
+  color: #d7bd3c;
   font-family: Yeseva One;
   font-weight: normal;
   text-rendering: optimizeLegibility;
@@ -354,7 +361,10 @@ h6 {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
-  color: inherit;
+  /* color: #546f1c; */
+  background: -webkit-linear-gradient(#546f1c, #e28355);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-family: "Roboto";
   font-weight: normal;
   text-rendering: optimizeLegibility;

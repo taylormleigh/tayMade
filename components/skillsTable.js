@@ -25,7 +25,7 @@ const Skills = () => {
       </tr>
       <tr>
         <td><i>Other</i></td>
-        <td>Figma / Git / RESTful API / TDD </td>  
+        <td>Figma / Git / RESTful API / TDD / Photoshop / AfterEffects</td>  
       </tr>
     </tbody></table>
   )
