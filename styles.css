@@ -417,6 +417,9 @@ li {
   flex-grow: 1;
   list-style-type: none;
 }
+li:hover {
+  opacity: 0.6;
+}
 
 img {
   max-height: 100%;
