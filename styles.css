@@ -300,7 +300,7 @@ h1 {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0.25rem;
-  /* margin-bottom: 1.45rem; */
+  margin-bottom: 0.45rem;
   /* color: #546f1c; */
   /* background: -webkit-linear-gradient(#6a8d24, #294a1e);
   -webkit-background-clip: text;
@@ -413,9 +413,10 @@ ul {
 }
 
 li {
-  height: 40vh;
-  flex-grow: 1;
   list-style-type: none;
+  /* height: 40vh; */
+  margin: 0px;
+  flex-grow: 1;
 }
 li:hover {
   opacity: 0.6;
