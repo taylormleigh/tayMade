@@ -5,27 +5,27 @@ const Skills = () => {
     <table><tbody>
       <tr>
         <td><i>Languages</i></td>
-        <td>JavaScript / CSS / HTML </td>  
+        <td>JavaScript / CSS / HTML / JSX </td>  
       </tr>
       <tr>
-        <td><i>Frameworks</i></td>
-        <td>React / JQuery / Express / Redux </td>  
+        <td><i>Front-End</i></td>
+        <td>React / Next / Gatsby / Redux / JQuery</td>  
       </tr>
       <tr>
-        <td><i>Databases</i></td>
-        <td>mySQL </td>  
+        <td><i>Back-End</i></td>
+        <td>Express / Node.js / mySQL </td>  
+      </tr>
+      <tr>
+        <td><i>Deployment</i></td>
+        <td>AWS / Elastic Beanstalk / Docker / Vercel(Zeit) / Heroku </td>  
       </tr>
       <tr>
         <td><i>Testing</i></td>
         <td>Mocha / Chai / Jasmine </td>  
       </tr>
       <tr>
-        <td><i>Deployment</i></td>
-        <td>AWS / Elastic Beanstalk / Docker </td>  
-      </tr>
-      <tr>
         <td><i>Other</i></td>
-        <td>Node.js / RESTful API / Next.js / Gatsby.js / TDD </td>  
+        <td>Figma / Git / RESTful API / TDD </td>  
       </tr>
     </tbody></table>
   )

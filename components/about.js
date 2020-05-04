@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "../components/image";
 import Layout from "../components/layout";
 import Skills from "../components/skillsTable";
 
@@ -15,17 +14,15 @@ const summary = {
   float: `right`
 };
 
-const photo = {
-  order: `1`,
-  // flexGrow: `1`,
-  // maxHeight: `100%`,
-  // minWidth: `100%`,
-  // objectFit: `cover`,
-  // verticalAlign: `bottom`,
+const linkStyle = {
+  marginRight: 15,
+  color: `black`,
+  // fontFamily: "Yeseva One",
+  textDecoration: `none`,
+  // textTransform: `uppercase`,
 };
 
-
-const About = ({source, altern = "image"}) => {
+const About = () => {
   return (
     <Layout>
       <div style={container}>
@@ -34,9 +31,9 @@ const About = ({source, altern = "image"}) => {
         </div> */}
         <div style={summary}>
           <h1>Tay Huval</h1>
-          <h3><b>Software Engineer</b> | <i>Austin, TX</i></h3>
-          <h6><mark>I'm currently open to job and project opportunities</mark>
-            <p/>{`I’m a front-end engineer with a full-stack background. I have experience building with anything javascript and I’ve completed projects mostly with the SERN stack. I also enjoy spending my time actively exploring new libraries, frameworks, and tools. What I love most about this industry is that there’s always something new to learn and you’re only ever touching the tip of the iceberg with any given technology.`}
+          <h3><strong>Software Engineer</strong> | <i>Austin, TX</i></h3>
+          <h6><mark><a style={linkStyle} className="headerLink" href="mailto:me@taylor-made.com"><i>I'm currently open to job and project opportunities</i></a></mark>
+            <p/>{`Hello, I'm Tay! I’m a front-end engineer with a full-stack background. I have experience building with anything javascript and I’ve completed projects mostly using the SERN stack. I also enjoy spending my time actively exploring new libraries, frameworks, and tools. What I love most about this industry is that there’s always something new to learn and you’re only ever touching the tip of the iceberg with any given technology. My first career was as an animator/illustrator and I’ve worked to leverage my past skills in art and design to effectively sharpen my skills as an engineer.`}
             <p/>
             <Skills />
           </h6>
