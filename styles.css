@@ -300,9 +300,14 @@ h1 {
   padding-top: 0.25rem;
   /* margin-bottom: 1.45rem; */
   /* color: #546f1c; */
-  background: -webkit-linear-gradient(#6a8d24, #294a1e);
+  /* background: -webkit-linear-gradient(#6a8d24, #294a1e);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent; */
+  background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+	background-size: cover;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
   font-family: Yeseva One;
   font-weight: normal;
   text-rendering: optimizeLegibility;
