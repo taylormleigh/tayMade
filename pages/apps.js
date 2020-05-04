@@ -10,7 +10,7 @@ const container = {
 
 const Projects = () => (
   <Layout>
-    <h1 style={container}>Live App Demos Coming Soon!</h1>
+    <h1 style={container}>Live App Demos Coming Soon</h1>
     {/* <ul>
       <li>
         <Image source="profile.jpeg" altern="profile"/>

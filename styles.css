@@ -80,7 +80,9 @@ select {
   text-transform: none;
 }
 mark {
-  background-color: #efccbb;
+  /* background-color: #efccbb; */
+  background: rgb(239,204,187);
+  background: linear-gradient(90deg, rgba(239,204,187,1) 0%, rgba(220,185,167,0.5760679271708684) 100%);
 }
 .headerLink {
   margin-right: 15;
@@ -311,7 +313,7 @@ h1 {
   font-family: Yeseva One;
   font-weight: normal;
   text-rendering: optimizeLegibility;
-  min-width: 2.6vw;
+  min-width: 3vw;
   text-transform: uppercase;
   line-height: 0.8; 
 }
@@ -325,7 +327,7 @@ h2 {
 }
 /* subtitle */
 h3 {
-  color: #d7bd3c;
+  color: #cfa860;
   font-family: Yeseva One;
   font-weight: normal;
   text-rendering: optimizeLegibility;

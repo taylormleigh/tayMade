@@ -33,7 +33,7 @@ const About = () => {
           <h3><strong>Software Engineer</strong> | <i>Austin, TX</i></h3>
           <mark><a style={linkStyle} className="textLink" href="mailto:me@taylor-made.com"><i>I'm currently open to job and project opportunities</i></a></mark>
           <h6>
-            <p/>{`Hello, I'm Tay! I’m a front-end engineer with a full-stack background. I have experience building with anything javascript and I’ve completed projects mostly using the SERN stack. I also enjoy spending my time actively exploring new libraries, frameworks, and tools. What I love most about this industry is that there’s always something new to learn and you’re only ever touching the tip of the iceberg with any given technology. My first career was as an animator/illustrator and I’ve worked to leverage my past skills in art and design to effectively sharpen my skills as an engineer.`}
+            <p/>{`Hi, I'm Tay! I’m a front-end engineer with a full-stack background. I have experience building with anything javascript and I’ve completed projects mostly using the SERN stack. I also enjoy spending my time actively exploring new libraries, frameworks, and tools. What I love most about this industry is that there’s always something new to learn and you’re only ever touching the tip of the iceberg with any given technology. My first career was as an animator/illustrator and I’ve worked to leverage my past skills in art and design to effectively sharpen my skills as an engineer. My past also gives me an edge in sitting at a computer screen for long periods of time doing tedious amounts of work ; )`}
             <p/>
             <Skills />
           </h6>
