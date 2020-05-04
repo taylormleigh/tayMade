@@ -4,9 +4,14 @@ import Image from "../components/image";
 
 const container = {
   display: `flex`, 
-  flexFlow: `row no-wrap`,
+  flexFlow: `row wrap`,
   marginLeft: `20px`, 
 };
+
+const tableStyle = {
+  display: `flex`, 
+  flexFlow: `column no-wrap`, 
+}
 
 const Projects = () => (
   <Layout>
@@ -36,7 +41,7 @@ const Projects = () => (
           </td>
           <td>
             <h1>Saskatchewanazon</h1>
-            <h6>A Canadian-themed product image site mirroring Amazon’s style
+            <h6>A Canadian-themed product image site mimicking Amazon’s style
             <br/><i>CSS / React / Node.js / Express / mySQL / AWS / EC2 / RDS / Docker
             <br/>(& re-deployed to Heroku)</i>
 
@@ -51,7 +56,7 @@ const Projects = () => (
           <td>
           <h1>Sunflower Fool</h1>
             <h6>
-              A form-based web app for recording tarot readings
+              A journal-like web app for recording tarot reading results and personal notes
               <br/><i>React / CSS / Node.js / Next.js / Express / mySQL</i>
               <br/> LIVE DEMO COMING SOON
             </h6>

@@ -1,10 +1,12 @@
 import React from "react"
 
 const Image = ({source, altern = "image", width="250px"}) => {
-  var widthStyle = {
+  let widthStyle = {
     maxWidth: width,
-    // borderRadius: `6px`
+    borderRadius: `5px`
   }
+
+
   return <img src={source} alt={altern} style={widthStyle}/>
 }
 

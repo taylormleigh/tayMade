@@ -6,7 +6,7 @@ const NotFoundPage = () => (
     <h1>404 DEAD END</h1>
     <h6>
     <p/>You hear a low rumble nearby and the ancient tome in your bag begins to vibrate. 
-    <br/>Roll initiative . . . or press the back button.
+    <br/>Roll initiative . . . or just press the back button.
     </h6>
   </Layout>
 )

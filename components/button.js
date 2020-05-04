@@ -3,7 +3,6 @@ import Link from 'next/link';
 
 const linkStyle = {
   marginRight: 15,
-  // color: `#546f1c`,
   fontFamily: "Yeseva One",
   textDecoration: `none`,
   textTransform: `uppercase`,
