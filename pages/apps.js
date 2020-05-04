@@ -11,6 +11,7 @@ const container = {
 const Projects = () => (
   <Layout>
     {/* <h1 style={container}>Live App Demos Coming Soon</h1> */}
+    <div style={container}>
       <table><tbody>
         <tr>
           <td>
@@ -33,11 +34,11 @@ const Projects = () => (
               <Image source="saskatch.jpeg" altern="Saskatchewanazon"/>
             </a>
           </td>
-          <td><h1>
-            <b>Saskatchewanazon</b></h1>
+          <td>
+            <h1>Saskatchewanazon</h1>
             <h6>A Canadian-themed product image site mirroring Amazon’s style
             <br/><i>CSS / React / Node.js / Express / mySQL / AWS / EC2 / RDS / Docker
-            <br/>(re-deployed to Heroku)</i>
+            <br/>(& re-deployed to Heroku)</i>
 
           </h6></td>
         </tr>
@@ -57,7 +58,7 @@ const Projects = () => (
           </td>
         </tr>
       </tbody></table>
-
+    </div>
   </Layout>
 )
 

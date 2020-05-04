@@ -1,6 +1,6 @@
 import React from "react"
 
-const Image = ({source, altern = "image", width="200px"}) => {
+const Image = ({source, altern = "image", width="250px"}) => {
   var widthStyle = {
     maxWidth: width,
     // borderRadius: `6px`
