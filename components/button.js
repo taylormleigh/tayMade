@@ -10,10 +10,10 @@ const linkStyle = {
 
 const Button = ({text, link, sitePage}) => {
   if (sitePage) {
-    return <Link href={link}><a className="headerLink" style={linkStyle}>{text}</a></Link>
+    return <Link href={link}><a className="headerLink hvr-shrink hvr-overline-from-center" style={linkStyle}>{text}</a></Link>
     
   } else if (!sitePage) {
-  return <a className="headerLink" href={link} style={linkStyle}>{text}</a>
+  return <a className="headerLink hvr-shrink hvr-overline-from-center" href={link} style={linkStyle}>{text}</a>
   }
 }
 
