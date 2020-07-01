@@ -349,6 +349,7 @@ img {
 }
 /* site title */
 h1 {
+  text-decoration: none;
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
