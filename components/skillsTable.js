@@ -9,7 +9,7 @@ const Skills = () => {
       </tr>
       <tr>
         <td><i>Front-End</i></td>
-        <td>React / Next / Gatsby / Redux / JQuery</td>  
+        <td>React / Next / Gatsby / JQuery</td>  
       </tr>
       <tr>
         <td><i>Back-End</i></td>
@@ -17,7 +17,7 @@ const Skills = () => {
       </tr>
       <tr>
         <td><i>Deployment</i></td>
-        <td>AWS / Elastic Beanstalk / Docker / Vercel(Zeit) / Heroku </td>  
+        <td>AWS / Elastic Beanstalk / Docker / Vercel</td>  
       </tr>
       <tr>
         <td><i>Testing</i></td>
