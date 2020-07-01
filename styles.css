@@ -86,6 +86,7 @@ video {
   display: inline-block;
 }
 a {
+  text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
@@ -93,6 +94,7 @@ a:active,
 a:hover {
   color: blueviolet;
   outline-width: 0;
+  text-decoration: none;
 }
 strong {
   font-weight: inherit;
@@ -137,6 +139,7 @@ mark {
   background: linear-gradient(90deg, rgba(239,204,187,1) 0%, rgba(220,185,167,0.5760679271708684) 100%);
 }
 .headerLink {
+  text-decoration: none;
   margin-right: 15;
   /* color: black; */
   text-decoration: none;
@@ -154,6 +157,7 @@ mark {
   /* opacity: 0.3; */
 }
 .textLink {
+  text-decoration: none;
   transition: all 0.3s;
 }
 .textLink:hover {
