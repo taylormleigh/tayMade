@@ -20,16 +20,18 @@ const Projects = () => (
       <table><tbody>
         <tr>
           <td>
-            {/* <a href="http://papergarden.tay-made.com"> */}
+            <a href="http://papergarden.tay-made.com">
               <Image source="papergarden.jpeg" altern="Paper & Garden"/>
-            {/* </a> */}
+            </a>
           </td>
           <td>
-            <h1>Paper & Garden</h1>
+            <a href="http://papergarden.tay-made.com">
+              <h1>Paper & Garden</h1>
+            </a>
             <h6>
               A web app which assists storytellers with world-building
               <br/><i>React / CSS / Node.js / Express / mySQL</i>
-              <br/> LIVE DEMO COMING SOON
+              {/* <br/> LIVE DEMO COMING SOON */}
             </h6>
           </td>
         </tr>
@@ -40,7 +42,9 @@ const Projects = () => (
             </a>
           </td>
           <td>
-            <h1>Saskatchewanazon</h1>
+            <a href="https://saskatchewanazon.herokuapp.com/">
+              <h1>Saskatchewanazon</h1>
+            </a>
             <h6>A Canadian-themed product image site mimicking Amazon’s style
             <br/><i>CSS / React / Node.js / Express / mySQL / AWS / EC2 / RDS / Docker
             <br/>(& re-deployed to Heroku)</i>
