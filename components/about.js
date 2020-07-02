@@ -11,9 +11,12 @@ const linkStyle = {
 };
 
 const imgStyle = {
-  height: `100px`,
-  width: `100px`,
-  borderRadius: `50%`,
+  height: `50vh`,
+  maxHeight: `330px`,
+  minWidth: `100%`,
+  borderRadius: `1.8%`,
+  marginLeft: 0,
+  marginBottom: 0,
 }
 
 const About = () => {
@@ -21,20 +24,19 @@ const About = () => {
     <Layout>
       <div className="section group">
         <div className="col span_1_of_2">
-            <img src="profile.jpeg" style={imgStyle}/>
+            <img src="photo.jpeg" style={imgStyle}/>
         </div>
         <div className="col span_1_of_2">
-
           <h1>Tay Huval</h1>
           <h3><strong>Software Engineer</strong> | <i>Austin, TX</i></h3>
           <mark><a style={linkStyle} className="textLink" href="mailto:me@taylor-made.com"><i>I'm currently open to job and project opportunities</i></a></mark>
-          </div>
-      </div>
+          <br/><br/>
           <h6>
-            <p/>{`I’m a front-end engineer with a full-stack background. I have experience building with anything javascript and I’ve completed projects mostly with the SERN stack. My first career was as an animator/illustrator and I’ve worked to leverage my past skills in art and design to effectively sharpen my skills as an engineer. I find that programming satisfies both my creative instincts and an inexplicable desire to sit and stare at a screen for long periods of time doing tedious amounts of work :)`}
-            <p/>
             <Skills />
           </h6>
+          </div>
+      </div>
+            {`I’m a front-end engineer with a full-stack background. I have experience building with anything javascript and I’ve completed projects mostly with the SERN stack. My first career was as an animator/illustrator and I’ve worked to leverage my past skills in art and design to effectively sharpen my skills as an engineer. I find that programming satisfies both my creative instincts and an inexplicable desire to sit and stare at a screen for long periods of time doing tedious amounts of work :)`}
     </Layout>
   );
 }

@@ -105,7 +105,7 @@ html {
 }
 body {
   margin: 0;
-  font-size: 18px;
+  font-size: 0.9rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* background-image: url('./public/bg2.png'); */
@@ -115,6 +115,20 @@ body {
   background-repeat: round;
   background-position: top left;
   background-attachment: fixed;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  margin-bottom: 1.45rem;
+  color: #ca824f;
+  font-family: "Roboto";
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+  /* font-size: 18px; */
+  line-height: 1.1;
 }
 .container {
   border-radius: 25px;
@@ -392,6 +406,8 @@ img {
 }
 /* site title */
 h1 {
+  word-wrap: break-word;
+  /* font-size: 3vw; */
   text-decoration: none;
   margin-left: 0;
   margin-right: 0;
@@ -401,10 +417,6 @@ h1 {
   padding-right: 0;
   padding-top: 0.25rem;
   margin-bottom: 0.45rem;
-  /* color: #546f1c; */
-  /* background: -webkit-linear-gradient(#6a8d24, #294a1e);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; */
   background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
 	background-size: cover;
 	color: transparent;
@@ -467,6 +479,7 @@ h5 {
   line-height: 1.1;
 }
 h6 {
+  font-size: 14px;
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
@@ -482,9 +495,10 @@ h6 {
   font-family: "Roboto";
   font-weight: normal;
   text-rendering: optimizeLegibility;
-  font-size: 18px;
   line-height: 1.1;
 }
+
+
 hgroup {
   margin-left: 0;
   margin-right: 0;

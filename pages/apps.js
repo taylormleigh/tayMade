@@ -42,7 +42,7 @@ const Projects = () => (
       </div>
       <div className="col span_1_of_2">
           <a href="https://saskatchewanazon.herokuapp.com/">
-            <h1>Saskatchewanazon</h1>
+            <h1>Saskatchewan-azon</h1>
           </a>
           <h6>A Canadian-themed product image site mimicking Amazon’s style
           <br/><i>CSS / React / Node.js / Express / mySQL / AWS / EC2 / RDS / Docker
