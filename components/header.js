@@ -4,11 +4,11 @@ import Button from "./button.js";
 const flex = {
   // marginTop: `4vw`,
   margin: `0 auto`,
-  maxWidth: 460,
+  maxWidth: 560,
   // display: `flex`,
   flexDirection: `row`,
   justifyContent: `space-between`,
-  width: `100vw`,
+  width: `95vw`,
   // padding: `4px`
 }
 
