@@ -3,10 +3,10 @@ import Button from "./button.js";
 
 const flex = {
   marginTop: `4vw`,
-  display: `flex`,
-  flexDirection: `row`,
+  // display: `flex`,
+  // flexDirection: `row`,
   justifyContent: `center`,
-  width: `100%`,
+  width: `100vw`,
   // padding: `4px`
 }
 

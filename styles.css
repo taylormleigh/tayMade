@@ -131,7 +131,7 @@ body {
   line-height: 1.1;
 }
 .container {
-  border-radius: 25px;
+  /* border-radius: 25px; */
 }
 header {
   color: white;

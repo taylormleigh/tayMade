@@ -15,8 +15,6 @@ const bgStyle = {
   borderRight: `0px`,
   borderStyle: `solid`,
   borderColor: `#d7bd3c`,
-  // borderRadius: `10px`,
-  // boxShadow: `0px 0px 30px 2px #aaa3c0`,
 };
 
 const divStyle = {
@@ -26,14 +24,14 @@ const divStyle = {
 
 const Layout = ({children}) => {
   return (
-    <div className="container">
+    <>
       <Header />
       <div style={bgStyle}>
         <div style={divStyle}>
             <main>{children}</main>
         </div>
       </div>
-    </div>
+    </>
   )
 }
 
