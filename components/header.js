@@ -14,7 +14,7 @@ const flex = {
 
 const buttons = {
   display: `flex`,
-  height: `5vh`,
+  height: `6.5vh`,
   alignItems: `center`,
   justifyContent: `space-between`,
   // justifyContent: `center`,
