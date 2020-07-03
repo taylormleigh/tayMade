@@ -1,4 +1,3 @@
-import React from "react"
 import Image from "./image";
 
 const appEntry = ({linkUrl, imgSrc, imgAlt, title, desc, stack, demo}) => {

@@ -1,4 +1,3 @@
-import React from "react";
 import Button from "./button.js";
 
 const flex = {
@@ -15,7 +14,6 @@ const buttons = {
   alignItems: `center`,
   justifyContent: `space-between`,
 }
-
 
 const Header = () => (
     <div style={flex}>
