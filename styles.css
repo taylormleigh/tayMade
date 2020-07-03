@@ -105,7 +105,7 @@ html {
 }
 body {
   margin: 0;
-  font-size: 0.9rem;
+  font-size: 1rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* background-image: url('./public/bg2.png'); */
@@ -130,9 +130,7 @@ body {
   /* font-size: 18px; */
   line-height: 1.1;
 }
-.container {
-  /* border-radius: 25px; */
-}
+
 header {
   color: white;
   font-weight: bold;

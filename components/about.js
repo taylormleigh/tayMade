@@ -11,7 +11,7 @@ const linkStyle = {
 };
 
 const imgStyle = {
-  height: `40vh`,
+  height: `50vh`,
   maxHeight: `330px`,
   minWidth: `100%`,
   borderRadius: `1.8%`,
