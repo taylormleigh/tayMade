@@ -2,21 +2,10 @@ import React from "react"
 import Layout from "../components/layout"
 import Image from "../components/image";
 
-const container = {
-  display: `flex`, 
-  flexFlow: `row wrap`,
-  marginLeft: `20px`, 
-};
-
-const tableStyle = {
-  display: `flex`, 
-  flexFlow: `column no-wrap`, 
-}
 
 const Projects = () => (
   <Layout>
-<>
-  
+
   <div className="section group">
     <div className="col span_1_of_2">
         <a href="http://papergarden.tay-made.com">
@@ -67,8 +56,6 @@ const Projects = () => (
       </div>
     </div>
 
-    
-</>
   </Layout>
 )
 

@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const linkStyle = {
   marginRight: 15,
-  fontSize: `1.2rem`,
+  fontSize: `1.2em`,
   fontFamily: "Yeseva One",
   textDecoration: `none`,
   textTransform: `uppercase`,

@@ -2,14 +2,11 @@ import React from "react";
 import Button from "./button.js";
 
 const flex = {
-  // marginTop: `4vw`,
   margin: `0 auto`,
   maxWidth: 560,
-  // display: `flex`,
   flexDirection: `row`,
   justifyContent: `space-between`,
   width: `95vw`,
-  // padding: `4px`
 }
 
 const buttons = {
@@ -17,8 +14,8 @@ const buttons = {
   height: `6.5vh`,
   alignItems: `center`,
   justifyContent: `space-between`,
-  // justifyContent: `center`,
 }
+
 
 const Header = () => (
     <div style={flex}>
