@@ -2,17 +2,17 @@ import React from "react";
 import Button from "./button.js";
 
 const flex = {
-  marginTop: `50px`,
+  marginTop: `4vw`,
   display: `flex`,
   flexDirection: `row`,
   justifyContent: `center`,
   width: `100%`,
-  padding: `4px`
+  // padding: `4px`
 }
 
 const buttons = {
   display: `flex`,
-  height: `50px`,
+  height: `5vh`,
   alignItems: `center`,
   justifyContent: `center`,
 }

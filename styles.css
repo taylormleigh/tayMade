@@ -199,6 +199,7 @@ mark {
   text-decoration: none;
   margin-right: 15;
   /* color: black; */
+  font-size: 1rem;
   text-decoration: none;
   transition: all 0.3s;
   opacity: 1;
@@ -407,7 +408,7 @@ img {
 /* site title */
 h1 {
   word-wrap: break-word;
-  /* font-size: 3vw; */
+  min-font-size: 3vw;
   text-decoration: none;
   margin-left: 0;
   margin-right: 0;
