@@ -215,7 +215,6 @@ mark {
   /* opacity: 0.3; */
 }
 .textLink {
-  font-size: 1rem;
   text-decoration: none;
   transition: all 0.3s;
 }
@@ -409,7 +408,7 @@ img {
 /* site title */
 h1 {
   word-wrap: break-word;
-  min-font-size: 3vw;
+  font-size: 4.5vh;
   text-decoration: none;
   margin-left: 0;
   margin-right: 0;
@@ -481,7 +480,7 @@ h5 {
   line-height: 1.1;
 }
 h6 {
-  font-size: 14px;
+  font-size: 0.8rem;
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;

@@ -6,7 +6,7 @@ const bgStyle = {
   margin: `0 auto`,
   maxWidth: 800,
   minHeight: `70vh`,
-  maxHeight: `75vh`,
+  maxHeight: `90vh`,
   overflow: `auto`,
   padding: `10px`,
   borderTop: `1px`,
