@@ -6,7 +6,7 @@ const linkStyle = {
   marginRight: 15,
   color: `#971500`,
   fontFamily: "Roboto",
-  fontSize: `80%`,
+  fontSize: `0.7rem`,
   textDecoration: `none`,
 };
 

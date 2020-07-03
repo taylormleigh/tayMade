@@ -215,6 +215,7 @@ mark {
   /* opacity: 0.3; */
 }
 .textLink {
+  font-size: 1rem;
   text-decoration: none;
   transition: all 0.3s;
 }
@@ -444,7 +445,7 @@ h3 {
   font-family: Yeseva One;
   font-weight: normal;
   text-rendering: optimizeLegibility;
-  min-width: 1.7vw;
+  font-size: 1rem;
   line-height: 0.1;
 }
 h4 {
