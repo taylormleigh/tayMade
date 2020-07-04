@@ -12,7 +12,6 @@ const Projects = () => (
       title="Paper & Garden"
       desc="A web app which assists storytellers with world-building"
       stack="React / CSS / Node.js / Express / mySQL"
-      demo={true}
     />
 
     <AppEntry 
@@ -22,17 +21,15 @@ const Projects = () => (
       title="Saskatchewan-azon"
       desc="A Canadian-themed product image site mimicking Amazon’s style"
       stack="CSS / React / Node.js / Express / mySQL / AWS / EC2 / RDS / Docker (& re-deployed to Heroku)"
-      demo={true}
     />
 
     <AppEntry 
-      linkUrl="http://sunflower.tay-made.com" 
+      // linkUrl="http://sunflower.tay-made.com" 
       imgSrc="sunflower.jpeg" 
       imgAlt="Sunflower Fool"
       title="Sunflower Fool"
       desc="A journal-like web app for recording tarot reading results and personal notes"
       stack="React / CSS / Node.js / Next.js / Express / mySQL"
-      demo={false}
     />
 
   </Layout>

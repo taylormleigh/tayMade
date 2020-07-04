@@ -1,8 +1,8 @@
 import Image from "./image";
 
-const appEntry = ({linkUrl, imgSrc, imgAlt, title, desc, stack, demo}) => {
+const appEntry = ({linkUrl, imgSrc, imgAlt, title, desc, stack}) => {
 
-  if (demo) {
+  if (linkUrl) {
     return (
       <div className="section group">
         <div className="col span_1_of_2">
@@ -21,7 +21,7 @@ const appEntry = ({linkUrl, imgSrc, imgAlt, title, desc, stack, demo}) => {
         </div>
       </div>
     )
-  } else if (!demo) {
+  } else {
     return (
       <div className="section group">
         <div className="col span_1_of_2">
