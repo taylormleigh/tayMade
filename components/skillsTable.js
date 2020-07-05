@@ -15,7 +15,7 @@ const Skills = () => {
       </tr>
       <tr>
         <td><i>Deployment</i></td>
-        <td>AWS / Elastic Beanstalk / Docker / Vercel</td>  
+        <td>AWS / Elastic Beanstalk / Docker</td>  
       </tr>
       <tr>
         <td><i>Testing</i></td>
