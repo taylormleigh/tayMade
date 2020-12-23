@@ -346,7 +346,7 @@ html {
 }
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #000; 
+  background: white; 
 }
 img {
   max-height: 100%;
