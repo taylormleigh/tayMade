@@ -29,27 +29,12 @@
 .span_1_of_2{
   width: 49.2%;
   /* margin-left: -50px; */
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.9);
   border-radius: 2%;
 }
 
 
-/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
-@media only screen and (max-width: 480px) {
-	.col { 
-		margin: 1% 0 1% 0%;
-  }
-  .contactButton {
-    opacity: 0
-  }
-  .contactButtonMobile {
-    opacity: 1
-  }
-}
 
-@media only screen and (max-width: 480px) {
-	.span_2_of_2, .span_1_of_2 { width: 100%; }
-}
 
 
 
@@ -858,28 +843,59 @@ a.contactButton {
   z-index: 999;
   position: fixed;
   bottom: 50px;
-  width: 120px;
+  width: 50px;
   height: 50px;
   box-sizing: border-box;
-  border-radius: 0%;
+  border-radius: 50%;
   transition: all .7s;
+  box-shadow:10px 0px 50px white;
 }
 
 a.contactButtonMobile {
-  opacity: 0;
+  /* opacity: 0; */
   transition: all .7s;
   letter-spacing: 2px;
-  font-size: .7rem;
+  font-size: 1.3rem;
   text-transform: uppercase;
-  font-style: italic;
+  /* font-style: italic; */
   text-align: center;
-  line-height: 1.6;
+  line-height: 1.4;
   padding-left: 2px;
-  padding-top: 14px;
+  padding-bottom: 14px;
 }
 
 .contactButtonMobile:hover {
   transition: all .7s;
   color: peachpuff;
   font-style: italic;
+}
+
+/* CONTACT BUTTON VS MOBILE CONTACT BUTTON */
+@media only screen and (min-width: 1000px) {
+  .contactButton {
+    opacity: 1
+  }
+  .contactButtonMobile {
+    opacity: 0
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .contactButton {
+    opacity: 0
+  }
+  .contactButtonMobile {
+    opacity: 1
+  }
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+@media only screen and (max-width: 730px) {
+	.col { 
+		margin: 1% 0 1% 0%;
+  }
+}
+
+@media only screen and (max-width: 730px) {
+	.span_2_of_2, .span_1_of_2 { width: 100%; }
 }

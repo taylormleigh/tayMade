@@ -31,7 +31,9 @@ const Layout = ({children}) => {
         </div>
       </div>
       <a href="mailto:me@taylor-made.com" className="contactButton">CONTACT</a>
-      <a href="mailto:me@taylor-made.com" className="contactButtonMobile">CONTACT</a>
+      <div>
+        <a href="mailto:me@taylor-made.com" className="contactButtonMobile">@</a>
+      </div>
     </>
   )
 }
