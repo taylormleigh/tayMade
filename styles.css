@@ -38,7 +38,13 @@
 @media only screen and (max-width: 480px) {
 	.col { 
 		margin: 1% 0 1% 0%;
-	}
+  }
+  .contactButton {
+    opacity: 0
+  }
+  .contactButtonMobile {
+    opacity: 1
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -646,7 +652,7 @@ strong {
 }
 dt {
   font-weight: bold;
-}
+} 
 th {
   font-weight: bold;
 }
@@ -789,10 +795,10 @@ pre tt:after {
 
 /* About Me Page */
 .aboutPic {
-  min-height: 30vh;
+  min-height: 250px;
   max-Height: 40vh;
-  min-Width: 10vw;
-  max-Width: 20vw;
+  min-Width: 250px;
+  max-Width: 40vh;
   border-Radius: 100%;
   margin-Left: 0;
   margin-Bottom: 0;
@@ -840,6 +846,39 @@ a.contactButton {
 }
 
 .contactButton:hover {
+  transition: all .7s;
+  color: peachpuff;
+  font-style: italic;
+}
+
+.contactButtonMobile {
+  /* opacity: 0; */
+  background-color: #294a1e;
+  color: white;
+  z-index: 999;
+  position: fixed;
+  bottom: 50px;
+  width: 120px;
+  height: 50px;
+  box-sizing: border-box;
+  border-radius: 0%;
+  transition: all .7s;
+}
+
+a.contactButtonMobile {
+  opacity: 0;
+  transition: all .7s;
+  letter-spacing: 2px;
+  font-size: .7rem;
+  text-transform: uppercase;
+  font-style: italic;
+  text-align: center;
+  line-height: 1.6;
+  padding-left: 2px;
+  padding-top: 14px;
+}
+
+.contactButtonMobile:hover {
   transition: all .7s;
   color: peachpuff;
   font-style: italic;
