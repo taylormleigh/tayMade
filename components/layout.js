@@ -21,9 +21,11 @@ const divStyle = {
   padding: `8px`,
 }
 
-const variants = {
-  hidden: { opacity: 0 },
-  visible: { opacity: 1 },
+const spring = {
+  type: "spring",
+  damping: 20,
+  stiffness: 200,
+  duration: 1
 }
 
 
@@ -33,20 +35,23 @@ const Layout = ({children}) => {
     <Header />
 
     <motion.div
-    initial="hidden"
-    animate="visible"
-    variants={variants}>
+    initial={{x:200, opacity: 0}}
+    animate={{x:0, opacity: 1}}
+    exit={{x: -200, opacity: 0}}
+    transition={spring}
+    >
+      
       <div style={bgStyle}>
         <div style={divStyle}>
             <main>{children}</main>
         </div>
       </div>
+    </motion.div>
 
         <a href="mailto:me@taylor-made.com" className="contactButton">CONTACT</a>
       
         <a href="mailto:me@taylor-made.com" className="contactButtonMobile">contact</a>
     
-    </motion.div>
     </>
   )
 }

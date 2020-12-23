@@ -397,7 +397,7 @@ h2 {
   text-rendering: optimizeLegibility;
   font-size: 2.0vw;
 }
-/* subtitle */
+/* subtitle (Software Engineer | Austin TX) */
 h3 {
   color: #cfa860;
   font-family: Yeseva One;
@@ -405,7 +405,8 @@ h3 {
   /* text-rendering: optimizeLegibility; */
   font-size: 1rem;
   line-height: 0.9;
-  margin: 1px;
+  margin-top: 0px;
+  margin-bottom: 8px;
 }
 /* UNUSED */
 h4 {
@@ -798,7 +799,7 @@ pre tt:after {
 }
 
 .contactLink.textLink {
-  padding-right: 3rem;
+  padding-right: 7vw;
   padding-left: 0.5rem;
   color: #971500;
   font-Family: "Roboto";
@@ -826,7 +827,7 @@ pre tt:after {
   height: 50px;
   box-sizing: border-box;
   border-radius: 0%;
-  transition: all .7s;
+  transition: all .25s ease-in-out;
 }
 
 a.contactButton {
@@ -841,7 +842,7 @@ a.contactButton {
 }
 
 .contactButton:hover {
-  transition: all .7s;
+  transform: scale(1.1);
   color: peachpuff;
   font-style: italic;
 }
@@ -857,13 +858,11 @@ a.contactButton {
   height: 50px;
   box-sizing: border-box;
   border-radius: 0%;
-  transition: all .7s;
+  transition: all .25s ease-in-out;
   box-shadow:2px 0px 90px white;
 }
 
 a.contactButtonMobile {
-  /* opacity: 0; */
-  transition: all .7s;
   letter-spacing: 2px;
   font-size: .7rem;
   text-transform: uppercase;
@@ -875,7 +874,7 @@ a.contactButtonMobile {
 }
 
 .contactButtonMobile:hover {
-  transition: all .7s;
+  transform: scale(1.1);
   color: peachpuff;
   font-style: italic;
 }
