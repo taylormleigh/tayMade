@@ -930,3 +930,38 @@ a.contactButtonMobile {
 @media only screen and (max-width: 730px) {
 	.span_2_of_2, .span_1_of_2 { width: 100%; }
 }
+
+@media only screen and (max-width: 400px) {
+	.col { 
+		margin: 1% 0 1% 0%;
+  }
+  .aboutPic {
+    margin: 0px;
+  }
+  .span_1_of_2 {
+    align-content: center;
+    text-align: center;
+    transition: all .7s;
+  }
+  .headerLink {
+    font-size: 0.8rem;
+  }
+  h1 {
+    padding-top: 0px;
+  }
+  h3 {
+    font-size: 0.75rem;
+  }
+  .appPage {
+    margin-bottom: 0px;
+  }
+  .bulletpoint {
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 0.7rem;
+  }
+  .contactLink.textLink {
+    margin: 0vw;
+    padding: 5px;
+  }
+}
