@@ -5,7 +5,7 @@ const appEntry = ({linkUrl, imgSrc, imgAlt, title, desc, stack, bulletpoints = [
   if (linkUrl) {
     return (
       <div className="section group">
-        <div className="col span_1_of_2">
+        <div className="col span_1_of_2 appPage">
           <div className="container">
             <a href={linkUrl}>
               <Image source={imgSrc} altern={imgAlt}/>
@@ -15,7 +15,7 @@ const appEntry = ({linkUrl, imgSrc, imgAlt, title, desc, stack, bulletpoints = [
             </div>
           </div>
         </div>
-        <div className="col span_1_of_2">
+        <div className="col span_1_of_2 appPage">
           <a href={linkUrl}>
             <h1>{title}</h1>
           </a>
@@ -32,7 +32,7 @@ const appEntry = ({linkUrl, imgSrc, imgAlt, title, desc, stack, bulletpoints = [
   } else {
     return (
       <div className="section group">
-        <div className="col span_1_of_2">
+        <div className="col span_1_of_2 appPage">
           <div className="container">
             <Image source={imgSrc} altern={imgAlt}/>
             <div className="middle">
@@ -40,7 +40,7 @@ const appEntry = ({linkUrl, imgSrc, imgAlt, title, desc, stack, bulletpoints = [
             </div>
           </div>
         </div>
-        <div className="col span_1_of_2">
+        <div className="col span_1_of_2 appPage">
             <h1>{title}</h1>
           <h6>
             {desc}
