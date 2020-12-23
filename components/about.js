@@ -21,7 +21,7 @@ const About = () => {
           </div>
       </div>
       <div className="aboutText">
-            {`Tay is a front-end engineer with a full-stack background. She is experienced building apps and has completed projects primarily using the SERN stack. Her first career as an animator/illustrator nurtured instincts in art and design which she leverages to effectively sharpen her skills as an engineer. Whether working on small personal projects from scratch or jumping onto a bigger project to help support a team, she approaches programming with energy, excitement, and an eye for detail.`}
+            {`Hello! I'm Tay, a front-end engineer with experience building full-stack apps. I have completed projects primarily using the SERN stack. My background is in animation and illustration, which nurtured instincts in art and design that I leverage to effectively sharpen my skills as a designer and engineer. Whether working on small personal projects from scratch or jumping onto bigger projects to help support a team, I like to approach programming with energy, excitement, and an eye for detail. Feel free to contact me for inquiries and opportunities!`}
       </div>
     </Layout>
   );
