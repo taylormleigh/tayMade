@@ -22,13 +22,6 @@ const divStyle = {
   padding: `8px`,
 }
 
-const spring = {
-  type: "spring",
-  damping: 20,
-  stiffness: 200,
-  duration: 0.5
-}
-
 
 const Layout = ({children}) => {
   return (
@@ -37,10 +30,10 @@ const Layout = ({children}) => {
 
     <AnimatePresence>
       <motion.div
-      initial={{x:200, opacity: 0}}
-      animate={{x:0, opacity: 1}}
+      initial={{opacity: 0}}
+      animate={{opacity: 1}}
       exit={{opacity:0}}
-      transition={spring}
+      transition={{duration: 1.1}}
       >
         
         <div style={bgStyle}>
