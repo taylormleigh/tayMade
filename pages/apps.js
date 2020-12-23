@@ -11,7 +11,7 @@ const Projects = () => (
       imgSrc="papergarden.jpeg" 
       imgAlt="Paper & Garden"
       title="Paper & Garden"
-      desc="A web app which assists storytellers with world-building"
+      desc="A web app to assist storytellers with building and managing fictional worlds"
       stack="React / CSS / Node.js / Express / mySQL"
       bulletpoints={paperGardenBulletpoints}
     />
