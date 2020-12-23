@@ -838,30 +838,30 @@ a.contactButton {
 
 .contactButtonMobile {
   /* opacity: 0; */
-  background-color: #294a1e;
+  background-color: #2a551c;
   color: white;
   z-index: 999;
   position: fixed;
   bottom: 50px;
-  width: 50px;
+  width: 120px;
   height: 50px;
   box-sizing: border-box;
-  border-radius: 50%;
+  border-radius: 0%;
   transition: all .7s;
-  box-shadow:10px 0px 50px white;
+  box-shadow:2px 0px 90px white;
 }
 
 a.contactButtonMobile {
   /* opacity: 0; */
   transition: all .7s;
   letter-spacing: 2px;
-  font-size: 1.3rem;
+  font-size: .7rem;
   text-transform: uppercase;
-  /* font-style: italic; */
+  font-style: italic;
   text-align: center;
-  line-height: 1.4;
+  line-height: 1.6;
   padding-left: 2px;
-  padding-bottom: 14px;
+  padding-top: 14px;
 }
 
 .contactButtonMobile:hover {

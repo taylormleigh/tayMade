@@ -32,7 +32,7 @@ const Layout = ({children}) => {
       </div>
       <a href="mailto:me@taylor-made.com" className="contactButton">CONTACT</a>
       <div>
-        <a href="mailto:me@taylor-made.com" className="contactButtonMobile">@</a>
+        <a href="mailto:me@taylor-made.com" className="contactButtonMobile">contact</a>
       </div>
     </>
   )
