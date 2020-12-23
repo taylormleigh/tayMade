@@ -462,6 +462,7 @@ h6 {
 
 .bulletpoint {
   font-size: 0.72rem;
+  padding: 0;
 }
 
 hgroup {
