@@ -401,9 +401,10 @@ h3 {
   color: #cfa860;
   font-family: Yeseva One;
   font-weight: normal;
-  text-rendering: optimizeLegibility;
+  /* text-rendering: optimizeLegibility; */
   font-size: 1rem;
-  line-height: 0.1;
+  line-height: 0.9;
+  margin: 1px;
 }
 /* UNUSED */
 h4 {
@@ -917,6 +918,9 @@ a.contactButtonMobile {
   }
   h3 {
     font-size: 1.2rem;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 5px;
   }
   h6 {
     font-size: 1.1rem;
@@ -968,7 +972,8 @@ a.contactButtonMobile {
     padding-top: 0px;
   }
   h3 {
-    font-size: 1rem;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
   }
   .appPage {
     margin-bottom: 0px;
