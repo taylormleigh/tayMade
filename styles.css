@@ -897,7 +897,7 @@ a.contactButtonMobile {
   }
   .aboutText {
     margin-top: 0;
-    margin-bottom: 8vh;
+    margin-bottom: 9vh;
   }
 }
 
@@ -949,6 +949,9 @@ a.contactButtonMobile {
 @media only screen and (max-width: 400px) {
 	.col { 
 		margin: 1% 0 1% 0%;
+  }
+  a.contactButtonMobile {
+    font-size: .85rem;
   }
   .aboutPic {
     margin: 0px;
