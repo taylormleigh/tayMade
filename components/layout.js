@@ -30,6 +30,7 @@ const Layout = ({children}) => {
             <main>{children}</main>
         </div>
       </div>
+      <a href="mailto:me@taylor-made.com" className="contactButton">CONTACT</a>
     </>
   )
 }
