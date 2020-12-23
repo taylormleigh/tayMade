@@ -10,10 +10,10 @@ const About = () => {
         <div className="col span_1_of_2">
             <img src="photo.jpeg" className="aboutPic"/>
         </div>
-        <div className="col span_1_of_2">
+        <div className="col span_1_of_2 aboutPage">
           <h1>Tay Huval</h1>
           <h3><strong>Software Engineer</strong> | <i>Austin, TX</i></h3>
-          <mark><a className="contactLink, textLink" href="mailto:me@taylor-made.com"><i>CONTACT</i></a></mark>
+          <mark><a className="contactLink, textLink" href="mailto:me@taylor-made.com">▻<i> currently open to jobs and projects</i></a></mark>
           <br/><br/>
           <h6>
             <Skills />
