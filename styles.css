@@ -912,6 +912,13 @@ a.contactButtonMobile {
   }
   h1 {
     padding-top: 0px;
+    font-size: 1.8rem;
+  }
+  h3 {
+    font-size: 1.1rem;
+  }
+  h6 {
+    font-size: 1rem;
   }
   .appPage {
     margin-bottom: 0px;
@@ -919,11 +926,18 @@ a.contactButtonMobile {
   .bulletpoint {
     text-align: left;
     margin-bottom: 10px;
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
   .contactLink.textLink {
-    margin: 5vw;
+    margin: 0.5vw;
     padding: 8px;
+    font-size: 1rem;
+  }
+  .aboutText {
+    font-size: 1.1rem;
+  }
+  table {
+    font-size: 1rem;
   }
 }
 
@@ -948,9 +962,10 @@ a.contactButtonMobile {
   }
   h1 {
     padding-top: 0px;
+    font-size: 1.8rem;
   }
   h3 {
-    font-size: 0.75rem;
+    font-size: 1rem;
   }
   .appPage {
     margin-bottom: 0px;
@@ -958,10 +973,16 @@ a.contactButtonMobile {
   .bulletpoint {
     text-align: left;
     margin-bottom: 10px;
-    font-size: 0.7rem;
+    font-size: 1rem;
   }
   .contactLink.textLink {
     margin: 0vw;
     padding: 5px;
+  }
+  .aboutText {
+    font-size: 1.3rem;
+  }
+  table {
+    font-size: 1rem;
   }
 }
