@@ -14,11 +14,8 @@
     "mysql": "^2.18.1",
     "next": "9.3.5",
     "next-images": "^1.4.0",
-    "nodemon": "^2.0.3",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "react-hook-form": "^5.4.2",
-    "vue": "^2.6.11",
-    "vue-page-transition": "^0.2.2"
+    "react-hook-form": "^5.4.2"
   }
 }

@@ -10,10 +10,11 @@ const linkStyle = {
 };
 
 const imgStyle = {
-  height: `50vh`,
-  maxHeight: `330px`,
-  minWidth: `100%`,
-  borderRadius: `1.3%`,
+  minHeight: `30vh`,
+  maxHeight: `40vh`,
+  minWidth: `10vw`,
+  maxWidth: `20vw`,
+  borderRadius: `100%`,
   marginLeft: 0,
   marginBottom: 0,
 }
@@ -35,7 +36,7 @@ const About = () => {
           </h6>
           </div>
       </div>
-            {`I’m a front-end engineer with a full-stack background. I have experience building with anything javascript and I’ve completed projects mostly with the SERN stack. My first career was as an animator/illustrator and I’ve worked to leverage my past skills in art and design to effectively sharpen my skills as an engineer. I find that programming satisfies both my creative instincts and an inexplicable desire to sit and stare at a screen for long periods of time doing tedious amounts of work :)`}
+            {`Tay is a front-end engineer with a full-stack background. She has experience building with anything javascript and she has completed projects mostly with the SERN stack. Her first career was as an animator/illustrator and she has worked to leverage those past skills in art and design to effectively sharpen her skills as an engineer.`}
     </Layout>
   );
 }

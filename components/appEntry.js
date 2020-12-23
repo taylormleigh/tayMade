@@ -1,6 +1,6 @@
 import Image from "./image";
 
-const appEntry = ({linkUrl, imgSrc, imgAlt, title, desc, stack}) => {
+const appEntry = ({linkUrl, imgSrc, imgAlt, title, desc, stack, bulletpoints = []}) => {
 
   if (linkUrl) {
     return (
@@ -18,6 +18,9 @@ const appEntry = ({linkUrl, imgSrc, imgAlt, title, desc, stack}) => {
             {desc}
             <br/><i>{stack}</i>
           </h6>
+          {bulletpoints.map((point) => {
+            return <div className="bulletpoint">{point}</div>;
+          })}
         </div>
       </div>
     )
