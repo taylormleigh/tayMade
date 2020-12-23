@@ -36,7 +36,7 @@ const About = () => {
           </h6>
           </div>
       </div>
-            {`Tay is a front-end engineer with a full-stack background. She has experience building both with raw javascript as well as with frameworks and libraries, completing projects mostly with the SERN stack. Her first career as an animator/illustrator nurtured skills in art and design which she leverages to effectively sharpen her skills as an engineer.`}
+            {`Tay is a front-end engineer with a full-stack background. She is experienced building apps and has completed projects primarily using the SERN stack. Whether working on small personal projects from scratch or jumping onto a bigger project to help support her team, programming is more than just a job. Her first career as an animator/illustrator nurtured instincts in art and design which she leverages to effectively sharpen her skills as an engineer.`}
     </Layout>
   );
 }
