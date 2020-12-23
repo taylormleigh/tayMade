@@ -11,7 +11,7 @@ const appEntry = ({linkUrl, imgSrc, imgAlt, title, desc, stack, bulletpoints = [
               <Image source={imgSrc} altern={imgAlt}/>
             </a>
             <div className="middle">
-              <div className="text">DEMO</div>
+              <a href={linkUrl} className="text">DEMO</a>
             </div>
           </div>
         </div>
@@ -33,7 +33,12 @@ const appEntry = ({linkUrl, imgSrc, imgAlt, title, desc, stack, bulletpoints = [
     return (
       <div className="section group">
         <div className="col span_1_of_2">
-              <Image source={imgSrc} altern={imgAlt}/>
+          <div className="container">
+            <Image source={imgSrc} altern={imgAlt}/>
+            <div className="middle">
+              <div className="text">DEMO COMING SOON</div>
+            </div>
+          </div>
         </div>
         <div className="col span_1_of_2">
             <h1>{title}</h1>
