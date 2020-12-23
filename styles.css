@@ -176,6 +176,7 @@ select {
 mark {
   background: rgb(239,204,187);
   background: linear-gradient(90deg, rgba(239,204,187,1) 0%, rgba(220,185,167,0.5760679271708684) 100%);
+  padding-bottom: 5px;
 }
 .headerLink {
   text-decoration: none;
@@ -438,7 +439,7 @@ h5 {
 /* normal text */
 h6 {
   z-index: 900;
-  font-size: 0.8rem;
+  font-size: 0.85rem;
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
@@ -446,7 +447,7 @@ h6 {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 0.5rem;
   background: -webkit-linear-gradient(#546f1c, #e28355);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -457,8 +458,13 @@ h6 {
 }
 
 .bulletpoint {
-  font-size: 0.72rem;
+  font-size: 0.75rem;
   padding: 0;
+}
+
+.aboutText {
+  font-size: 0.88rem;
+  margin-top: 4vh;
 }
 
 hgroup {
@@ -558,7 +564,7 @@ table {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  /* font-size: 18px; */
+  font-size: 0.75rem;
   border-collapse: collapse;
 }
 
@@ -733,7 +739,7 @@ pre tt:after {
 }
 
 
-/* Mouse Over Image for Demo */
+/* Mouse Over Image for Demo Pictures */
 .container {
   position: relative;
   /* width: 50%; */
@@ -781,19 +787,21 @@ pre tt:after {
 /* About Me Page */
 .aboutPic {
   min-height: 250px;
-  max-Height: 40vh;
+  max-Height: 35vh;
   min-Width: 250px;
-  max-Width: 40vh;
+  max-Width: 35vh;
   border-Radius: 100%;
-  margin-Left: 0;
+  margin-Left: 4vw;
   margin-Bottom: 0;
 }
 
-.contactLink,.textLink {
-  padding: 1.8rem;
+.contactLink.textLink {
+  padding-right: 3rem;
+  padding-left: 0.5rem;
   color: #971500;
   font-Family: "Roboto";
   font-Size: 0.7rem;
+  /* line-height: 1; */
   text-Decoration: none;
   transition: all 0.3s;
 }
@@ -887,12 +895,35 @@ a.contactButtonMobile {
   .contactButtonMobile {
     opacity: 1
   }
+  .aboutText {
+    margin-top: 0;
+  }
 }
 
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
 @media only screen and (max-width: 730px) {
 	.col { 
 		margin: 1% 0 1% 0%;
+  }
+  .span_1_of_2 {
+    align-content: center;
+    text-align: center;
+    transition: all .7s;
+  }
+  h1 {
+    padding-top: 0px;
+  }
+  .appPage {
+    margin-bottom: 0px;
+  }
+  .bulletpoint {
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 0.8rem;
+  }
+  .contactLink.textLink {
+    margin: 5vw;
+    padding: 8px;
   }
 }
 
