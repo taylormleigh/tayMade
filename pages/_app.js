@@ -1,6 +1,12 @@
 import '../styles.css';
-import { motion } from "framer-motion";
 
-export default function MyApp({ Component, pageProps }) {
+const spring = {
+  type: "spring",
+  damping: 20,
+  stiffness: 200,
+  duration: 1
+}
+
+export default function MyApp({ Component, pageProps}) {
   return <Component {...pageProps} />
 }

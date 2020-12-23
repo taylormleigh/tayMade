@@ -1,5 +1,6 @@
 import Header from "./header";
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from 'framer-motion';
+import Router from "next/dist/next-server/server/router";
 
 const bgStyle = {
   backgroundColor: `#ffffff`,
@@ -25,7 +26,7 @@ const spring = {
   type: "spring",
   damping: 20,
   stiffness: 200,
-  duration: 1
+  duration: 0.5
 }
 
 
@@ -34,19 +35,21 @@ const Layout = ({children}) => {
     <>
     <Header />
 
-    <motion.div
-    initial={{x:200, opacity: 0}}
-    animate={{x:0, opacity: 1}}
-    exit={{x: -200, opacity: 0}}
-    transition={spring}
-    >
-      
-      <div style={bgStyle}>
-        <div style={divStyle}>
-            <main>{children}</main>
+    <AnimatePresence>
+      <motion.div
+      initial={{x:200, opacity: 0}}
+      animate={{x:0, opacity: 1}}
+      exit={{opacity:0}}
+      transition={spring}
+      >
+        
+        <div style={bgStyle}>
+          <div style={divStyle}>
+              <main>{children}</main>
+          </div>
         </div>
-      </div>
-    </motion.div>
+      </motion.div>
+    </AnimatePresence>
 
         <a href="mailto:me@taylor-made.com" className="contactButton">CONTACT</a>
       
