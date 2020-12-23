@@ -6,9 +6,14 @@ const appEntry = ({linkUrl, imgSrc, imgAlt, title, desc, stack, bulletpoints = [
     return (
       <div className="section group">
         <div className="col span_1_of_2">
+          <div className="container">
             <a href={linkUrl}>
               <Image source={imgSrc} altern={imgAlt}/>
             </a>
+            <div className="middle">
+              <div className="text">DEMO</div>
+            </div>
+          </div>
         </div>
         <div className="col span_1_of_2">
           <a href={linkUrl}>
@@ -18,8 +23,8 @@ const appEntry = ({linkUrl, imgSrc, imgAlt, title, desc, stack, bulletpoints = [
             {desc}
             <br/><i>{stack}</i>
           </h6>
-          {bulletpoints.map((point) => {
-            return <div className="bulletpoint">{point}</div>;
+          {bulletpoints.map((point, i) => {
+            return <div className="bulletpoint" key={i}>{point}</div>;
           })}
         </div>
       </div>
