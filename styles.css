@@ -769,4 +769,35 @@ pre tt:after {
   font-family: "Yeseva One";
   font-size: 1rem;
   padding: 16px 32px;
+  transition: all 1s;
+}
+
+.text:hover {
+  color: #7ba429;
+  transition: all 1s;
+}
+
+/* About Me Page */
+.aboutPic {
+  min-height: 30vh;
+  max-Height: 40vh;
+  min-Width: 10vw;
+  max-Width: 20vw;
+  border-Radius: 100%;
+  margin-Left: 0;
+  margin-Bottom: 0;
+}
+
+.contactLink,.textLink {
+  margin-Right: 3;
+  padding: 12;
+  color: #971500;
+  font-Family: "Roboto";
+  font-Size: 0.8rem;
+  text-Decoration: none;
+  transition: all 0.3s;
+}
+
+.contactLink,.textLink:hover {
+  opacity: 0.3;
 }
