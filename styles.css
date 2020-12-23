@@ -26,18 +26,13 @@
 .span_2_of_2 {
 	width: 100%;
 }
-.span_1_of_2.aboutPage {
-  width: 54.2%;
+.span_1_of_2{
+  width: 49.2%;
   /* margin-left: -50px; */
   background-color: rgba(255, 255, 255, 0.6);
   border-radius: 2%;
 }
 
-.span_1_of_2.appPage {
-  width: 49.2%;
-  background-color: rgba(255, 255, 255, 0.6);
-  border-radius: 2%;
-}
 
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
 @media only screen and (max-width: 480px) {
