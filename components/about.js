@@ -10,7 +10,7 @@ const About = () => {
         <motion.div 
           initial={{filter: `grayscale(100%)`}}
           animate={{filter: `grayscale(0%)`}} 
-          transition={{delay: 1, duration: 1.4}}
+          transition={{delay: 1, duration: 1.2}}
           >
             <img src="photo.jpeg" className="aboutPic"/>
           </motion.div>

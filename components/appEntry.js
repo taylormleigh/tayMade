@@ -1,4 +1,5 @@
 import Image from "./image";
+import { motion } from "framer-motion";
 
 const appEntry = ({linkUrl, imgSrc, imgAlt, title, desc, stack, bulletpoints = []}) => {
 
@@ -7,9 +8,15 @@ const appEntry = ({linkUrl, imgSrc, imgAlt, title, desc, stack, bulletpoints = [
       <div className="section group">
         <div className="col span_1_of_2 appPage">
           <div className="container">
-            <a href={linkUrl}>
-              <Image source={imgSrc} altern={imgAlt}/>
-            </a>
+            <motion.div 
+              initial={{filter: `grayscale(100%)`}}
+              animate={{filter: `grayscale(0%)`}} 
+              transition={{delay: 1, duration: 1}}
+              >
+              <a href={linkUrl}>
+                <Image source={imgSrc} altern={imgAlt}/>
+              </a>
+            </motion.div>
             <div className="middle">
               <a href={linkUrl} className="text">DEMO</a>
             </div>
