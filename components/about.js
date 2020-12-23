@@ -22,7 +22,7 @@ const About = () => {
           <motion.div 
           initial={{opacity:0}} 
           animate={{opacity:1}} 
-          transition={{delay: 0.4, duration: 1.6}}
+          transition={{delay: 1.6, duration: 1}}
           >
             <mark><a className="contactLink textLink" href="mailto:me@taylor-made.com">▻<i> currently open to jobs and projects</i></a></mark>
           </motion.div>
