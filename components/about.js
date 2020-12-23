@@ -1,7 +1,11 @@
 import Layout from "../components/layout";
 import Skills from "../components/skillsTable";
+import { motion } from "framer-motion";
 
-
+const variants = {
+  hidden: { opacity: 0 },
+  visible: { opacity: 1 },
+}
 
 const About = () => {
   return (

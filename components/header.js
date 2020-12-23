@@ -6,6 +6,12 @@ const flex = {
   flexDirection: `row`,
   justifyContent: `space-between`,
   width: `95vw`,
+  borderTop: `0px`,
+  borderBottom: `1px`,
+  borderLeft: `0px`,
+  borderRight: `0px`,
+  borderStyle: `solid`,
+  borderColor: `#d7bd3c`,
 }
 
 const buttons = {

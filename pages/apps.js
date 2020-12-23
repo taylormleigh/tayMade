@@ -1,6 +1,6 @@
 import Layout from "../components/layout"
 import AppEntry from "../components/appEntry";
-
+import { motion } from "framer-motion";
 
 
 const Projects = () => (
