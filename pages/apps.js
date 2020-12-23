@@ -49,7 +49,7 @@ const paperGardenBulletpoints = [
 
 const saskatchBulletpoints = [
   `▻ Rendered a product image component using raw CSS and React.`,
-  `▻ Using a relational database migrated to Amazon RDS, we deployed to AWS via Elastic Beanstalk using Docker.`,
+  `▻ Using a relational database migrated to Amazon RDS, app was deployed to AWS via Elastic Beanstalk using Docker.`,
   `▻ Load-balanced to ensure reliable flow of traffic and protected the web server from potential attacks by implementing a reverse-proxy server.`
 ]
 
