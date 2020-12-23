@@ -912,13 +912,13 @@ a.contactButtonMobile {
   }
   h1 {
     padding-top: 0px;
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
   h3 {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
   h6 {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
   .appPage {
     margin-bottom: 0px;
@@ -926,18 +926,18 @@ a.contactButtonMobile {
   .bulletpoint {
     text-align: left;
     margin-bottom: 10px;
-    font-size: 1rem;
-  }
-  .contactLink.textLink {
-    margin: 0.5vw;
-    padding: 8px;
-    font-size: 1rem;
-  }
-  .aboutText {
     font-size: 1.1rem;
   }
+  .contactLink.textLink {
+    margin: 0vw;
+    padding: 5px;
+    font-size: 1.1rem;
+  }
+  .aboutText {
+    font-size: 1.2rem;
+  }
   table {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 }
 
