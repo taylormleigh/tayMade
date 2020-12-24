@@ -24,7 +24,7 @@ const About = () => {
           animate={{opacity:1}} 
           transition={{delay: 1.6, duration: 1}}
           >
-            <mark><a className="contactLink textLink" href="mailto:me@taylor-made.com">▻<i>currently open to jobs and projects</i></a></mark>
+            <mark><a className="contactLink textLink" href="mailto:me@taylor-made.com"><big>▻</big><i>currently open to jobs and projects</i></a></mark>
           </motion.div>
           <br/><br/>
           <h6>

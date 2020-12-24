@@ -815,11 +815,13 @@ pre tt:after {
 }
 
 .contactLink.textLink {
-  padding-right: 7vw;
+  padding-right: 2.5vw;
+  letter-spacing: 2px;
   padding-left: 0.5rem;
   color: #971500;
   font-Family: "Roboto";
-  font-Size: 0.7rem;
+  font-Size: 0.5rem;
+  text-transform: uppercase;
   /* line-height: 1; */
   text-Decoration: none;
   transition: all 0.3s;
@@ -952,7 +954,7 @@ a.contactButtonMobile {
   .contactLink.textLink {
     margin: 0vw;
     padding: 5px;
-    font-size: 1.1rem;
+    font-size: 0.69rem;
   }
   .aboutText {
     font-size: 1.2rem;
@@ -1002,6 +1004,7 @@ a.contactButtonMobile {
   .contactLink.textLink {
     margin: 0vw;
     padding: 5px;
+    font-size:0.7rem;
   }
   .aboutText {
     font-size: 1.3rem;
