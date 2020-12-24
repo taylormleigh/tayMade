@@ -27,7 +27,7 @@ const appEntry = ({linkUrl, gitHub, imgSrc, imgAlt, title, desc, stack, bulletpo
             <h1>{title}</h1>
           </a>
           <h6>
-            {desc} (<a href={gitHub} className="gitHubLink">gitHub</a>)
+            {desc} (<a href={gitHub} className="gitHubLink">gitHub repo</a>)
             <br/><i>{stack}</i>
           </h6>
           {bulletpoints.map((point, i) => {
