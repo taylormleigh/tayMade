@@ -3,6 +3,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Yeseva+One&display=swap');
 
 
+
+.layoutBG {
+  background-Color: #ffffff;
+  margin: 0 auto;
+  max-Width: 800px;
+  min-Height: 70vh;
+  max-Height: 90vh;
+  overflow: auto;
+  padding: 10px;
+}
+
+.layoutDiv {
+  padding: 8px;
+}
+
 /*  ROW SECTIONS  */
 .section {
 	clear: both;
@@ -13,8 +28,10 @@
 .col {
 	display: block;
 	float:left;
-	margin: 1% 0 1% 1.6%;
+  margin: 1% 0px 1% 1.6%;
+  max-width: 400px;
 }
+
 .col:first-child { margin-left: 0; }
 
 /*  GROUPING  */
@@ -25,11 +42,10 @@
 
 /*  GRID OF TWO  */
 .span_2_of_2 {
-	width: 100%;
+  width: 100%;
 }
 .span_1_of_2{
   width: 49.2%;
-  /* margin-left: -50px; */
   background-color: rgba(255, 255, 255, 0.9);
   border-radius: 2%;
 }
