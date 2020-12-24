@@ -8,6 +8,7 @@ const Projects = () => (
 
     <AppEntry 
       linkUrl="http://papergarden.tay-made.com" 
+      gitHub="https://github.com/taylormleigh/PaperGarden"
       imgSrc="papergarden.jpeg" 
       imgAlt="Paper & Garden"
       title="Paper & Garden"
@@ -17,7 +18,8 @@ const Projects = () => (
     />
 
     <AppEntry 
-      linkUrl="https://saskatchewanazon.herokuapp.com/" 
+      linkUrl="https://saskatchewanazon.herokuapp.com/"
+      gitHub="https://github.com/WorkAppropriateCrew/Descriptions" 
       imgSrc="saskatch.jpeg" 
       imgAlt="Saskatchewanazon"
       title="Saskatchewan-azon"
@@ -28,6 +30,7 @@ const Projects = () => (
 
     <AppEntry 
       // linkUrl="http://sunflower.tay-made.com" 
+      gitHub="https://github.com/taylormleigh/readingsNext"
       imgSrc="sunflower.jpeg" 
       imgAlt="Sunflower Fool"
       title="Sunflower Fool"

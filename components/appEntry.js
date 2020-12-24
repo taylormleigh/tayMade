@@ -1,7 +1,7 @@
 import Image from "./image";
 import { motion } from "framer-motion";
 
-const appEntry = ({linkUrl, imgSrc, imgAlt, title, desc, stack, bulletpoints = []}) => {
+const appEntry = ({linkUrl, gitHub, imgSrc, imgAlt, title, desc, stack, bulletpoints = []}) => {
 
   if (linkUrl) {
     return (
@@ -27,7 +27,7 @@ const appEntry = ({linkUrl, imgSrc, imgAlt, title, desc, stack, bulletpoints = [
             <h1>{title}</h1>
           </a>
           <h6>
-            {desc}
+            {desc}<a href={gitHub}><u> ▻ gitHub</u></a>
             <br/><i>{stack}</i>
           </h6>
           {bulletpoints.map((point, i) => {
