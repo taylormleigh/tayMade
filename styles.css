@@ -29,7 +29,7 @@
 	display: block;
 	float:left;
   margin: 1% 0px 1% 1.6%;
-  max-width: 400px;
+  /* max-width: 400px; */
 }
 
 .col:first-child { margin-left: 0; }
@@ -477,13 +477,13 @@ h6 {
 }
 
 .bulletpoint {
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   padding: 0;
 }
 
 .aboutText {
   font-size: 0.88rem;
-  margin-top: 1.4vh;
+  margin-top: 3vh;
 }
 
 hgroup {
@@ -576,14 +576,13 @@ pre {
 }
 
 table {
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
+  z-index: 90;
+  margin: 0;
   padding-bottom: 0;
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   border-collapse: collapse;
 }
 
@@ -805,6 +804,7 @@ pre tt:after {
 
 /* About Me Page */
 .aboutPic {
+  z-index: 0;
   min-height: 250px;
   max-Height: 35vh;
   min-Width: 250px;
@@ -818,11 +818,11 @@ pre tt:after {
   padding-right: 2.5vw;
   letter-spacing: 2px;
   padding-left: 0.5rem;
+  margin-bottom: 0px;
   color: #971500;
   font-Family: "Roboto";
   font-Size: 0.5rem;
   text-transform: uppercase;
-  /* line-height: 1; */
   text-Decoration: none;
   transition: all 0.3s;
 }

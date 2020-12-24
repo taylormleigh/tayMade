@@ -15,7 +15,6 @@ const About = () => {
             <img src="photo.jpeg" className="aboutPic"/>
           </motion.div>
         </div>
-
         <div className="col span_1_of_2 aboutPage">
           <h1>Tay Huval</h1>
           <h3><strong>Software Engineer</strong> | <i>Austin, TX</i></h3>
@@ -26,7 +25,7 @@ const About = () => {
           >
             <mark><a className="contactLink textLink" href="mailto:me@taylor-made.com"><big>▻</big><i>currently open to jobs and projects</i></a></mark>
           </motion.div>
-          <br/><br/>
+          <br/>
           <h6>
             <Skills />
           </h6>
