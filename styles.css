@@ -230,6 +230,7 @@ mark {
   font-weight: 500;
   text-transform: uppercase;
 }
+
 fieldset {
   border: 1px solid silver;
   margin: 0 2px;
@@ -800,6 +801,10 @@ pre tt:after {
 .text:hover {
   color: #7ba429;
   transition: all 1s;
+}
+
+a.gitHubLink:hover {
+  font-style: italic;
 }
 
 /* About Me Page */
