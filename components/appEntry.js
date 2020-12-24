@@ -31,7 +31,7 @@ const appEntry = ({linkUrl, gitHub, imgSrc, imgAlt, title, desc, stack, bulletpo
             <br/><i>{stack}</i>
           </h6>
           {bulletpoints.map((point, i) => {
-            return <div className="bulletpoint" key={i}>{point}</div>;
+            return <div className="bulletpoint" key={i}>▻ {point}</div>;
           })}
         </div>
       </div>

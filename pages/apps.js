@@ -44,16 +44,16 @@ const Projects = () => (
 
 
 const paperGardenBulletpoints = [
-  `▻ Researched how writers develop worlds in order to understand user needs and develop user stories.`,
-  `▻ Designed this personal project using only raw CSS, raw React, and custom React Hooks.`,
-  `▻ Optimized user’s ability to create multiple worlds, multiple regions within each world, and multiple cities within each region with a scalable mySQL database.`,
-  `▻ Storybuilders can create accounts and passwords with log-in authorization, including a password hashing function, engineered using raw JavaScript (not utilized in demo.)`
+  `Researched how writers develop worlds in order to understand user needs and develop user stories.`,
+  `Designed this personal project using only raw CSS, raw React, and custom React Hooks.`,
+  `Optimized user’s ability to create multiple worlds, multiple regions within each world, and multiple cities within each region with a scalable mySQL database.`,
+  `Storybuilders can create accounts and passwords with log-in authorization, including a password hashing function, engineered using raw JavaScript (not utilized in demo.)`
 ]
 
 const saskatchBulletpoints = [
-  `▻ Rendered a product image component using raw CSS and React.`,
-  `▻ Using a relational database migrated to Amazon RDS, app was deployed to AWS via Elastic Beanstalk using Docker.`,
-  `▻ Load-balanced to ensure reliable flow of traffic and protected the web server from potential attacks by implementing a reverse-proxy server.`
+  `Rendered a product image component using raw CSS and React.`,
+  `Using a relational database migrated to Amazon RDS, app was deployed to AWS via Elastic Beanstalk using Docker.`,
+  `Load-balanced to ensure reliable flow of traffic and protected the web server from potential attacks by implementing a reverse-proxy server.`
 ]
 
 const sunflowerFoolBulletpoints = [
