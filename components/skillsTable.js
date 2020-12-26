@@ -11,7 +11,7 @@ const Skills = () => {
       </tr>
       <tr>
         <td><i>Back-End</i></td>
-        <td>Express / Node.js / mySQL / MongoDB </td>  
+        <td>Express / Node.js / mySQL / MongoDB / GraphQL</td>  
       </tr>
       <tr>
         <td><i>Deployment</i></td>
@@ -23,7 +23,7 @@ const Skills = () => {
       </tr>
       <tr>
         <td><i>Other</i></td>
-        <td>Figma / Git / RESTful API / TDD / Photoshop / After Effects</td>  
+        <td>Figma / Git / Apollo / RESTful API / TDD / Photoshop / After Effects</td>  
       </tr>
     </tbody></table>
   )
