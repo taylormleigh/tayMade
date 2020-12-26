@@ -815,7 +815,7 @@ a.gitHubLink:hover {
   min-Width: 250px;
   max-Width: 35vh;
   border-Radius: 100%;
-  margin-Left: 4vw;
+  margin-Left: 2vw;
   margin-Bottom: 0;
 }
 
@@ -903,6 +903,15 @@ a.contactButtonMobile {
 }
 
 /* CONTACT BUTTON VS MOBILE CONTACT BUTTON */
+@media only screen and (min-width: 1450px) {
+  .aboutPic {
+    margin: 0px;
+  }
+  .contactButton {
+    right: 78%;
+  }
+}
+
 @media only screen and (min-width: 1000px) {
   .contactButton {
     opacity: 1
