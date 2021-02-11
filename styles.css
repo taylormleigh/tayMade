@@ -1,8 +1,8 @@
-/* Roboto: body font */
+/* Overpass: body font */
 /* Yeseva One: h1 & h2 font */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Yeseva+One&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300&family=Yeseva+One&display=swap');
+/* Overpass is the main font */
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
 
 .layoutBG {
   background-Color: #ffffff;
@@ -111,7 +111,7 @@
 /* STYLING */
 
 html {
-  font-family: "Roboto";
+  font-family: "Overpass";
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -134,8 +134,8 @@ body {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: #ca824f;
-  font-family: "Roboto";
-  font-weight: normal;
+  font-family: "Overpass";
+  font-weight: 200;
   text-rendering: optimizeLegibility;
   line-height: 1.1;
 }
@@ -452,8 +452,8 @@ h5 {
   background: -webkit-linear-gradient(#546f1c, #e28355);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: "Roboto";
-  font-weight: normal;
+  font-family: "Overpass";
+  font-weight: 200;
   text-rendering: optimizeLegibility;
 }
 /* normal text */
@@ -471,8 +471,8 @@ h6 {
   background: -webkit-linear-gradient(#546f1c, #e28355);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: "Roboto";
-  font-weight: normal;
+  font-family: "Overpass";
+  font-weight: 100;
   text-rendering: optimizeLegibility;
   line-height: 1.1;
 }
@@ -825,7 +825,7 @@ a.gitHubLink:hover {
   padding-left: 0.5rem;
   margin-bottom: 0px;
   color: #971500;
-  font-Family: "Roboto";
+  font-Family: "Overpass";
   font-Size: 0.5rem;
   text-transform: uppercase;
   text-Decoration: none;
