@@ -32,7 +32,7 @@ const Projects = () => (
       // linkUrl="http://sunflower.tay-made.com" 
       gitHub="https://github.com/taylormleigh/readingsNext"
       imgSrc="sunflower.jpeg" 
-      imgAlt="Sunflower Fool"
+      imgAlt="Sunflower Tarot"
       title="Sunflower Tarot"
       desc="A journal-like web app for recording tarot reading results and personal notes"
       stack="React / CSS / Node.js / Next.js / Express / mySQL"
