@@ -14,6 +14,10 @@ const appEntry = ({linkUrl, gitHub, imgSrc, imgAlt, title, desc, stack, bulletpo
               transition={{delay: 1, duration: 1}}
               >
               <a href={linkUrl}>
+
+
+
+                
                 <Image source={imgSrc} altern={imgAlt}/>
               </a>
             </motion.div>

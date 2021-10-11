@@ -37,7 +37,7 @@ const Projects = () => (
       desc="A journal-like web app for recording tarot reading results and personal notes"
       stack="React / CSS / Node.js / Next.js / Express / mySQL"
       bulletpoints={sunflowerFoolBulletpoints}
-    />
+    /> 
 
   </Layout>
 )
