@@ -8,8 +8,8 @@ const Projects = () => (
 
     <AppEntry 
       linkUrl="http://papergarden.tay-made.com" 
-      gitHub="https://github.com/taylormleigh/PaperGarden"
-      imgSrc="papergarden.jpeg" 
+      gitHub="https://github.com/taylormleigh/PaperAndGarden"
+      imgSrc="papergarden.png" 
       imgAlt="Paper & Garden"
       title="Paper & Garden"
       desc="A web app to assist storytellers with building and managing fictional worlds"
