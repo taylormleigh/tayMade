@@ -20,8 +20,8 @@ const Layout = ({children}) => {
         </div>
       </motion.div>
     </AnimatePresence>
-      <a href="mailto:me@taylor-made.com" className="contactButton">CONTACT</a>
-      <a href="mailto:me@taylor-made.com" className="contactButtonMobile">contact</a>
+      <a href="mailto:me@tay-made.com" className="contactButton">CONTACT</a>
+      <a href="mailto:me@tay-made.com" className="contactButtonMobile">contact</a>
     </>
   )
 }
