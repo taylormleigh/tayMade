@@ -7,7 +7,7 @@ const Projects = () => (
   <Layout>
 
     <AppEntry 
-      linkUrl="http://papergarden.tay-made.com" 
+      linkUrl="https://papergarden.tay-made.com" 
       gitHub="https://github.com/taylormleigh/PaperAndGarden"
       imgSrc="papergarden.png" 
       imgAlt="Paper & Garden"
