@@ -42,7 +42,7 @@ const About = () => {
             
             {/* {`I am currently seeking engineering roles at a solid company that I can grow in, though I am open to contract work depending on the project.`} */}
             <p/>
-            {`Feel free to contact me for inquiries and opportunities!`}
+            {/* {`Feel free to contact me for inquiries and opportunities!`} */}
       </div>
     </Layout>
   );
