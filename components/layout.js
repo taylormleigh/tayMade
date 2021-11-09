@@ -6,12 +6,11 @@ const Layout = ({children}) => {
     <>
     <Header />
 
-    <AnimatePresence>
       <motion.div
       initial={{opacity: 0}}
       animate={{opacity: 1}}
-      exit={{opacity:0}}
       transition={{duration: 1.1}}
+      exit={{opacity:0}}
       >
         <div className="layoutBG">
           <div className="layoutDiv">
@@ -19,7 +18,6 @@ const Layout = ({children}) => {
           </div>
         </div>
       </motion.div>
-    </AnimatePresence>
       <a href="mailto:me@tay-made.com" className="contactButton">CONTACT</a>
       <a href="mailto:me@tay-made.com" className="contactButtonMobile">contact</a>
     </>
